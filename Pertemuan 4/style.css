@@ -1,0 +1,19 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30 px;
+    font-weight: bold;
+    text-align: center;
+
+    color: #4a76d6;
+    
+}
+.box {
+    background-color: rgb(138, 138, 255);
+    width: 50px;
+    height: 150px;
+    border: 1px solid black;
+
+    margin-top: 100px;
+    padding-left: 20px;
+    display: block;
+}
