@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="contact-form">
+            <div class= "gambar">
+                <img src = "quiz.png" width="120" height="140" margin: "auto"> 
+            </div>
+           
+            <h3 class = "section-title">Selamat Datang</h3>
+            <p style = "text-align: center; margin-top:5px; margin-bottom: 10px;" >Silahkan masukkan data untuk masuk</p>
+
+
+            <form id="contactForm" onsubmit="kirimPesan(event)">
+                <div class="formulir">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Masukkan Email">
+                </div>
+                <br>
+                
+                <div class="Nama">
+                    <label for = "nama"> Nama </label>
+                    <br>
+                    <input type="text" id="nama" placeholder="Masukkan Nama">
+                </div>
+                <br>
+
+                <div class = "Password">
+                    <label for = "password"> Password </label>
+                    <br>
+                    <input type="password" id = "password" placeholder = "Masukkan password">
+                </div>
+                <br>
+
+                <p style = "text-align: right; margin-top:5px; margin-bottom: 10px;" > Lupa password? </p>
+<tr>
+    <td>
+        <input type = "checkbox"> Ingat saya
+    </td>
+</tr>
+                <div class= "button">
+                <button type="submit" >  Masuk </button>
+                </div>
+                
+
+            </form>
